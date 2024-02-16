@@ -84,7 +84,7 @@ for(let i = 0; i < cards.length; i++){
 
         const titleContainer = document.getElementById('title-container');
         const p = document.createElement('p');
-        p.innerText = titleCount+". "+ title;
+        p.innerText = titleCount+". "+  title;
         titleContainer.appendChild(p);
         titleCount++;
         
